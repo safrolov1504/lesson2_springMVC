@@ -14,7 +14,7 @@ public class Launcher {
         URL location = domain.getCodeSource().getLocation();
 
         WebAppContext webAppContext = new WebAppContext();
-        webAppContext.setContextPath("/app");
+        webAppContext.setContextPath("/hw2");
         webAppContext.setWar(location.toExternalForm());
 
         server.setHandler(webAppContext);
